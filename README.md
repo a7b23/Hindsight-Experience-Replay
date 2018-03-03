@@ -1,7 +1,7 @@
 # Hindsight-Experience-Replay
 
 
-### This is an implementation of the bit-flipping experiment mentioned in paper "Hindsight Experience Replay" arXiv preprint arXiv:1707.01495 (2017).
+### This is an implementation of the bit-flipping experiment mentioned in paper [Hindsight Experience Replay]https://arxiv.org/abs/1707.01495) arXiv preprint arXiv:1707.01495 (2017).
 
 To start training, simply run :-
 ```
@@ -27,3 +27,6 @@ However, for a bit size > 10 only using the DQN algorithm does not lead to any s
 Below is the plot comparing all the 3 different goal strategies as well as just DQN for a bit size of 30.
 
 ![](30.png)
+
+#### Acknowledgment
+Code borrowed from [hindsight-experience-replay](https://github.com/minsangkim142/hindsight-experience-replay)
