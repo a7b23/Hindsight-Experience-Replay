@@ -8,14 +8,14 @@ To start training, simply run :-
 python her_main.py
 ```
 The goal state can be chosen by 3 different strategies(final, future, episode) as mentioned in the paper.
-To run with any strategy simply change Her flag and run the code. For example, for the strategy 'final' simply run :-
+To run with any strategy simply change the Her flag and run the code. For example, for the strategy 'final' simply run :-
 
 ```
 python her_main.py --Her final
 ```
 To get the results without using HER algorithm run :-
 ```
-python her_main.py --Her None
+python her_main.py --Her None --bit_size 7
 ```
 
 
